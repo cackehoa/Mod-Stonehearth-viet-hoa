@@ -1,0 +1,19 @@
+{
+   "info" : {
+      "name" : "Mod tiếng Việt.", 
+      "namespace": "startermod_locale",
+      "client_only": true,
+      "version" : 3
+   },
+   "mixintos" : {
+      "stonehearth/locales/supported_languages.json" : "file(added_languages.json)"
+   },
+   "overrides": {
+	  "candledark/locales/vi.json": "file(translations/candledark/vi.json)",
+	  "debugtools/locales/vi.json": "file(translations/debugtools/vi.json)",
+	  "northern_alliance/locales/vi.json": "file(translations/northern_alliance/vi.json)",
+      "stonehearth/locales/vi.json": "file(translations/stonehearth/vi.json)",
+      "rayyas_children/locales/vi.json": "file(translations/rayyas_children/vi.json)",
+	  "frostfeast/locales/vi.json": "file(translations/frostfeast/vi.json)"
+   }
+}
