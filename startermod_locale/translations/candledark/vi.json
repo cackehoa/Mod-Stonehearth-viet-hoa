@@ -1,1 +1,271 @@
-Tạo tập tin
+{
+   "ui": {
+      "game": {
+         "candledark": {
+            "uh_what": "Uh... Gì cơ?",
+            "such_as": "Như là?",
+            "berry_wine": "Bạn đã uống rượu quả mọng lần nữa chưa?",
+            "urm_thanks": "Urm... Cảm ơn!",
+            "dialog_nodes" : {
+               "bulletin_message" : {
+                  "000" : "Dưới đây là một số nguồn cung cấp để giúp bạn bắt đầu! Thợ mộc của bạn có thể biến chúng thành phường chống lại xác sống.",
+                  "001" : "Một ông già hốc hác xuất hiện ở rìa Thị trấn chúng ta. Thứ duy nhất quanh co hơn lưng là hàm răng...",
+                  "002" : "'Tại sao xin chào ở đó! Thời điểm giao thừa của Công viên nến đang đến rất nhanh nhưng bạn thậm chí còn chưa bắt đầu chuẩn bị!'",
+                  "003" : "'Bạn biết? Công viên nến! Những điều kỳ lạ đã xảy ra vào thời điểm này trong năm.'",
+                  "004" : "'Đó là... người chết... họ bắt đầu cựa quậy. Các bạn hãy chú ý nhất đến những lời cảnh báo của Old Elbezar và bắt đầu chuẩn bị của mình!'",
+                  "005" : "'Bah! Chế giễu tất cả những gì bạn muốn. Tốt nhất bạn nên bắt đầu xây dựng phường của mình, nếu không sẽ có rắc rối!'",
+                  "006" : "'Tôi sẽ trở lại trong vài ngày với chiếc xe của tôi để bán cho bạn một số hàng hóa, nhưng trong thời gian đó, tôi sẽ dạy thợ chế tác của bạn tất cả những gì tôi biết.'",
+                  "007" : "'Vâng, tôi sẽ được. Bạn đã thực hiện nó! Bạn đã sống sót ở Công viên nến. Tôi đã để dành một vài món đồ lặt vặt cho một dịp đặc biệt và điều này được coi là tốt như bất kỳ thứ nào. Chúc bạn thành công!... Cho đến năm sau...",
+                  "008" : ""
+               },                                                                                          
+               "bulletin_title" : "Trước khi tôi đi!",
+               "bulletin_title2" : "Cách tiếp cận của một ông già Haggard",
+               "bulletin_title3" : "Cuối cùng thì nó cũng kết thúc!",
+               "dialog_title" : "Một ông già Haggard"
+            }
+         },     
+         "entities" : {
+            "bite_notification" : "[name(i18n_data.entity)] đã bị cắn.",
+            "turn_notification" : "[name(i18n_data.entity)] đã chống chọi với bệnh dịch."
+         }
+      }
+   },
+   "data": {
+      "names": {
+         "plagued": {
+            "male_name": "Một Wight không có trí óc",
+            "female_name": "Một Wight không có trí óc"
+         }
+      },       
+      "buffs": {
+         "plagued": {
+            "display_name": "Bị cản trở",
+            "description": "Không tốt chút nào!"
+         }
+      },      
+      "commands": {
+         "smash_pinata": {
+            "display_name": "Smash the Piñata",
+            "description": "Nó chứa đầy kẹo!"
+         }
+      },
+      "gm": {
+         "campaigns": {
+            "trader" : {
+               "candledark_shop": {
+                  "shop_info": {
+                     "name": "Các loại đồ trang sức ở công viên nến",
+                     "title": "Elbezar Grimrock trở lại với chiếc xe đẩy của mình!"
+                  }
+               }
+            },
+            "darkness" : {
+               "mission": {
+                  "sighted_bulletin": {
+                     "title": "Undead bùng nổ từ mặt đất!"
+                  }
+               }
+            }
+         }
+      }
+   },
+   "entities": {
+      "critters": {
+         "black_cat": {
+            "display_name": "Một con mèo đen",
+            "description": "Có một cái gì đó kỳ lạ về nó."
+         }
+      },
+      "construction": {
+         "cobblestone_fence_rail" : {
+            "cobblestone_fence_rail": {
+               "display_name": "Tường đá cuội gia cố",
+               "description": "Bây giờ với tính năng bảo vệ được bổ sung."
+            },
+            "cobblestone_fence_rail_ghost": {
+               "display_name": "Tường đá cuội gia cố",
+               "description": "Bây giờ với tính năng bảo vệ được bổ sung."
+            }
+         },
+         "spooky_fence_gate" : {
+            "spooky_fence_gate": {
+               "display_name": "Cổng công viên nến",
+               "description": "Cổng ma quái được gia cố mạnh mẽ!"
+            },
+            "spooky_fence_gate_ghost": {
+               "display_name": "Cổng công viên nến",
+               "description": "Cổng ma quái được gia cố mạnh mẽ!"
+            }
+         }         
+      },
+      "decoration": {
+         "scarecrow": {
+            "scarecrow_ghost": {
+               "display_name": "Một bù nhìn đơn giản",
+               "description": "Đáng sợ!"
+            },
+            "scarecrow_iconic": {
+               "display_name": "Một bù nhìn đơn giản",
+               "description": "Yêu cầu một số lắp ráp."
+            }
+         },
+         "commemorative_tower_brazier": {
+            "commemorative_tower_brazier_ghost": {
+               "display_name": "Một Brazier kỷ niệm",
+               "description": "Bạn sống sót sau Công viên nến II"
+            },
+            "commemorative_tower_brazier_iconic": {
+               "display_name": "Một Brazier kỷ niệm",
+               "description": "Bạn sống sót sau Công viên nến II"
+            }
+         },         
+         "pinata": {
+            "pinata_ghost": {
+               "display_name": "Công viên nến Piñata",
+               "description": "Đầy ắp những món ăn ngon!"
+            },
+            "pinata_iconic": {
+               "display_name": "Công viên nến Piñata",
+               "description": "Yêu cầu một số lắp ráp."
+            }
+         },         
+         "pumpkin_ward": {
+            "pumpkin_ward": {
+               "display_name": "Phường bí ngô khắc",
+               "description": "Giữ các xác sống đi xa"
+            },
+            "pumpkin_ward_lantern": {
+               "display_name": "Đèn bí ngô",
+               "description": "Giữ các xác sống đi xa"
+            },
+            "pumpkin_ward_hanging_lantern": {
+               "display_name": "Treo đèn bí ngô",
+               "description": "Giữ các xác sống đi xa"
+            }
+         },
+         "decorative_burial_mound": {
+            "decorative_burial_mound" : {
+               "description": "Kiểu trang trí Công viên nến truyền thống.",
+               "display_name": "Gò đất mai táng trang trí"
+            }
+         }
+      },
+      "food": {
+         "candy_basket": {
+            "candy_basket": {
+               "display_name": "Basket of Candy",
+               "description": "C'mon, it's Candy!"
+            },
+            "candy_serving": {
+               "display_name": "Candy",
+               "description": "C'mon, it's Candy!"
+            }
+         },
+         "pumpkin_soup": {
+            "pumpkin_soup": {
+               "display_name": "A Bowl of Pumpkin Soup",
+               "description": "A mushed up bowl of Pumpkin!"
+            },
+            "pumpkin_soup_serving": {
+               "display_name": "A Portion of Pumpkin Soup",
+               "description": "Delicious."
+            }
+         },
+         "pumpkin_pie": {
+            "pumpkin_pie": {
+               "display_name": "A Pumpkin Pie",
+               "description": "Best left on a window sill!"
+            },
+            "pumpkin_pie_serving": {
+               "display_name": "A Slice of Pumpkin Pie",
+               "description": "Sweet and delicious."
+            }
+         }                  
+      },
+      "toys": {
+         "plushie_toy_ghost": {
+            "plushie_toy_ghost": {
+               "display_name": "A Plushie Toy Ghost",
+               "description": "Awww.. cute"
+            }
+         },
+         "plushie_toy_hanging_ghost": {
+            "plushie_toy_hanging_ghost": {
+               "display_name": "A Plushie Toy Hanging Ghost",
+               "description": "Awww.. cute"
+            }
+         }         
+      },      
+      "pets": {
+         "bat": {
+            "display_name": "A Bat",
+            "description": "...!"
+         }
+      }
+   },
+   "jobs": {
+      "weaver": {  
+      	"recipes": {
+            "plushie_toy_ghost_recipe": {
+               "description": "A traditional Candledark toy.",
+               "recipe_name": "A Plushie Toy Ghost"
+            },
+            "plushie_toy_hanging_ghost_recipe": {
+               "description": "A traditional Candledark toy.",
+               "recipe_name": "A Plushie Toy Hanging Ghost"
+            }          
+         }
+      },   	
+      "mason": {  
+      	"recipes": {
+            "decorative_burial_mound_recipe": {
+               "description": "A traditional Candledark decoration.",
+               "recipe_name": "A Decorative Burial Mound"
+            }
+         }
+      },
+      "blacksmith": {  
+         "recipes": {
+            "cobblestone_fence_rail_recipe": {
+               "description": "Now with added protection.",
+               "recipe_name": "A Reinforced Cobblestone Wall"
+            },
+            "spooky_fence_gate_recipe": {
+               "description": "Heavily Reinforced Spooky Gate!",
+               "recipe_name": "A Candledark Gate"
+            }            
+         }
+      },      
+      "carpenter": {
+      	"recipes": {
+            "scarecrow_recipe": {
+               "description": "A traditional Candledark decoration.",
+               "recipe_name": "A Simple Scarecrow"
+            },
+            "pinata_recipe": {
+               "description": "Filled with treats!",
+               "recipe_name": "A Candledark Piñata"
+            }            
+         }
+      },
+      "cook": {
+         "recipes": {
+            "holiday_recipes" : {
+               "candledark_name" : "Holiday Recipes"             
+            },
+            "pumpkin_ward_recipe": {
+               "description": "A traditional Candledark decoration.",
+               "recipe_name": "Candledark Carved Pumpkin Ward"
+            },
+            "pumpkin_ward_lantern_recipe": {
+               "description": "A traditional Candledark decoration. Now with extra pizzazz",
+               "recipe_name": "Candledark Pumpkin Lantern"
+            },
+            "pumpkin_ward_hanging_lantern_recipe": {
+               "description": "A traditional Candledark decoration. Placeable on walls!",
+               "recipe_name": "Candledark Hanging Pumpkin Lantern"
+            }
+         }
+      }
+   }
+}
