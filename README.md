@@ -39,7 +39,7 @@ Mình dịch trên phiên bản v1.1.0.rel.949 nên có thể không chạy ho�
          "display_name": "Vietnamese"
       }
 ````
-## Thêm các bản dịch của cơ bản và các mod khác:
+## Thêm các bản dịch cơ bản và các mod khác:
 ````
 "overrides": {
     "candledark/locales/vi.json": "file(translations/candledark/vi.json)",
@@ -92,3 +92,5 @@ Fanpage: [fb](https://www.facebook.com/cackehoa)
 Discord: [Discord](https://discord.gg/Z5C98FG)
 
 Youtube: [Cắc kè hoa](https://www.youtube.com/c/Cắckèhoa)
+# Giấy phép
+[MIT](LICENSE)
