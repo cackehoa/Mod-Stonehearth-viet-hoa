@@ -24,7 +24,7 @@ Mình dịch trên phiên bản v1.1.0.rel.949 nên có thể không chạy ho�
 - Tải tất cả thư mục [startermod_locale](startermod_locale/) trong này
 - Copy và dán vào thư mục **Stonehearth.v1.1.0.rel.949\mods**
 - Khởi động game vào **Mod** -> chọn **Mod tiếng Việt**
-- **Settings** -> **System** -> **Mod** -> **Language** -> chọn **Tiếng Việt**
+- **Settings** -> **System** -> **Language** -> chọn **Tiếng Việt**
 # Cách hoạt động
 ## Tệp kê khai manifest.json sử dụng dòng: <br>
 ````
@@ -55,7 +55,7 @@ Ghi đè này hiểu quả như bạn thêm các tệp tin ngôn ngữ tương �
 - Bạn có thể dễ dàng dịch các tập tin vi.json trong các thư mục tương ứng
 - Không sửa đổi nội dung bên trái dấu ':'
 - Không sửa đổi nội dung bên trong dấu ngoặc vuông '[' hoặc ']'
-- Example:
+- Ví dụ:
   ````
   "ai": {
    "actions": {
