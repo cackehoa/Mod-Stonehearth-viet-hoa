@@ -25,6 +25,61 @@ Mình dịch trên phiên bản v1.1.0.rel.949 nên có thể không chạy ho�
 - Copy và dán vào thư mục **Stonehearth.v1.1.0.rel.949\mods**
 - Khởi động game vào **Mod** -> chọn **Mod tiếng Việt**
 - **Settings** -> **System** -> **Mod** -> **Language** -> chọn **Tiếng Việt**
+# Cách hoạt động
+## Tệp kê khai manifest.json sử dụng dòng: <br>
+````
+"mixintos" : {
+      "stonehearth/locales/supported_languages.json" : "file(added_languages.json)"
+   }
+````
+Điều này khiến tất cả dữ liệu trong added_languages.json được thêm vào danh sách các ngôn ngữ được hỗ trợ được nhận dạng bởi stonehearth mod.
+## Chỉ định ngôn ngữ Vietnamese trong added_languages.json:
+````
+"vi": {
+         "display_name": "Vietnamese"
+      }
+````
+## Thêm các bản dịch của cơ bản và các mod khác:
+````
+"overrides": {
+    "candledark/locales/vi.json": "file(translations/candledark/vi.json)",
+    "debugtools/locales/vi.json": "file(translations/debugtools/vi.json)",
+    "northern_alliance/locales/vi.json": "file(translations/northern_alliance/vi.json)",
+    "stonehearth/locales/vi.json": "file(translations/stonehearth/vi.json)",
+    "rayyas_children/locales/vi.json": "file(translations/rayyas_children/vi.json)",
+    "frostfeast/locales/vi.json": "file(translations/frostfeast/vi.json)"
+   }
+````
+Ghi đè này hiểu quả như bạn thêm các tệp tin ngôn ngữ tương ứng từng mod
+## Cách dịch:
+- Bạn có thể dễ dàng dịch các tập tin vi.json trong các thư mục tương ứng
+- Không sửa đổi nội dung bên trái dấu ':'
+- Không sửa đổi nội dung bên trong dấu ngoặc vuông '[' hoặc ']'
+- Example:
+  ````
+  "ai": {
+   "actions": {
+      "status_text": {
+         "chase_entity": "chasing [name(data.target)]",
+  ````
+- Chuỗi cần dịch là "chasing [name(data.target)]"
+- Lưu ý, KHÔNG dịch phần "[name (data.target)]". Đây là chuỗi đặc biệt. Tên của mục tiêu sẽ thay thế "[name (data.target)]" trong trò chơi.
+- Không thay thế "[name (data.target)]" bằng các chuỗi đặc biệt khác là tốt nhất.
+- Bạn có thể di chuyển "[name (data.target)]" đến các vị trí khác nhau trong chuỗi.
+- Bạn có thể dịch nó như thế này bằng tiếng Việt
+````
+  "ai": {
+   "actions": {
+      "status_text": {
+         "chase_entity": "Đuổi theo [name(data.target)]",
+````
+- Hoặc tiếng Nhật (Lấy ví dụ cách đổi chỗ chuỗi đặt biệt để sau này cần)
+````
+  "ai": {
+   "actions": {
+      "status_text": {
+         "chase_entity": "[name(data.target)]を追う",
+````
 # Xem thêm hướng dẫn sử dụng github
 
 Nếu chưa biết cách sữ dụng [github](https://github.com) thì bạn có thể xem thêm [ở đây](/huongdan/HUONG-DAN.md)
