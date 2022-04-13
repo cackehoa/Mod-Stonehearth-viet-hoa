@@ -2632,44 +2632,44 @@
           },
           "valor_tier_2_reached": {
             "title": "Thị trấn được thành lập",
-            "speaker_name": "The Honorable Anwyn Torresi",
-            "message": "Congratulations, [str(i18n_data.town_name)]! Word has spread of your martial prowess. Thị trấn chúng ta officially qualifies as a township! I have brought building materials and trade agreements, as is customary!",
+            "speaker_name": "Anwyn Torresi đáng kính",
+            "message": "Xin chúc mừng, [str(i18n_data.town_name)]! Lời đồn đại về sức mạnh võ thuật của bạn. Thị trấn chúng ta chính thức đủ điều kiện là một thị trấn! Tôi đã mang theo vật liệu xây dựng và các hiệp định thương mại, theo thông lệ!",
             "accept": "Woohoo!",
-            "dialog_title": "Township Achieved!",
-            "tier_title": "Township",
+            "dialog_title": "Đã đạt được thị trấn!",
+            "tier_title": "Thị trấn",
             "reward_message": "Bằng sắc lệnh của Công nương Diana của Quyền lực, chúng tôi nhận ra:",
             "reward_message_ctd": "Cho những hành động dũng cảm đáng kinh ngạc trong chiến đấu. Thị trấn này đủ điều kiện để:",
             "tier_2_bldg_template": "Mẫu cấp 2",
             "tier_2_shops": "Cửa hàng cấp 2",
             "tier_2_BGM": "Nhạc nền cấp 2",
-            "recipe_unlock_engineer": "New portcullis recipe for Engineer!",
-            "recipe_unlock_mason": "New decoration recipes for Mason!",
-            "recipe_unlock_blacksmith": "New decoration recipes for Blacksmith!",
-            "recipe_unlock_weapons_1": "New Legendary Sword recipe - Weaver, Potter, and Blacksmith collaboration!",
-            "recipe_unlock_weapons_2": "New Legendary Shield recipe - Blacksmith, Carpenter, and Mason collaboration!",
-            "recipe_unlock_weapons_3": "New Legendary Bow recipe - Engineer, Weaver, and Carpenter collaboration!",
-            "recipe_unlock_weapons_4": "New Legendary Circlet recipe - Herbalist, Mason, and Blacksmith collaboration!"
+            "recipe_unlock_engineer": "Công thức cửa song sắt mới cho kỹ sư!",
+            "recipe_unlock_mason": "Công thức trang trí mới cho thợ xây!",
+            "recipe_unlock_blacksmith": "Công thức trang trí mới cho thợ rèn!",
+            "recipe_unlock_weapons_1": "Công thức Kiếm huyền thoại mới - Sự hợp tác giữa thợ dệt, thợ gốm và thợ rèn",
+            "recipe_unlock_weapons_2": "Công thức Khiên Huyền thoại mới - Sự hợp tác giữa thợ rèn, thợ mộc và thợ xây!",
+            "recipe_unlock_weapons_3": "Công thức Cung huyền thoại mới - Sự hợp tác giữa kỹ sư, thợ dệt và thợ mộc!",
+            "recipe_unlock_weapons_4": "Công thức Circlet huyền thoại mới - Sự hợp tác giữa dược sư, thợ xây và Thợ rèn"
           },
           "generosity_tier_2_reached": {
-            "reward_message_ctd": "For demonstrating great generosity to the needy. The town is hereby eligible for:",
-            "recipe_unlock_mason": "New wishing fountain recipe for Mason!",
-            "recipe_unlock_herbalist": "New shrubbery decorations for Herbalist!",
-            "recipe_unlock_blacksmith": "New decoration recipes for Blacksmith!"
+            "reward_message_ctd": "Để thể hiện sự hào phóng lớn đối với những người nghèo khổ. Thị trấn này đủ điều kiện để:",
+            "recipe_unlock_mason": "Công thức đài phun nước mong ước mới cho thợ xây!",
+            "recipe_unlock_herbalist": "Đồ trang trí cây bụi mới cho dược sư!",
+            "recipe_unlock_blacksmith": "Công thức trang trí mới cho thợ rèn!"
           },
           "crafting_tier_2_reached": {
-            "reward_message_ctd": "For excellence in craftsmanship. The town is hereby eligible for:",
-            "recipe_unlock_mason": "New fountain and statue recipes for Mason!",
-            "recipe_unlock_carpenter": "New decorations and fences for Carpenter!",
-            "recipe_unlock_herbalist": "New shrubbery decorations for Herbalist!",
-            "recipe_unlock_blacksmith": "New decoration recipes for Blacksmith!"
+            "reward_message_ctd": "Vì sự xuất sắc trong nghề thủ công. Thị trấn này đủ điều kiện để:",
+            "recipe_unlock_mason": "Đài phun nước và công thức tạc tượng mới cho thợ xây!",
+            "recipe_unlock_carpenter": "Đồ trang trí và hàng rào mới cho thợ mộc!",
+            "recipe_unlock_herbalist": "Đồ trang trí cây bụi mới cho dược sư!",
+            "recipe_unlock_blacksmith": "Công thức trang trí mới cho Thợ rèn!"
           },
           "ascendancy_town_tier_quest": {
-            "title": "Quest for a Township",
-            "dialog_title": "Quest for a Township",
-            "text": "Satisfy any of the following requirements to qualify for township status:",
-            "military_requirement_title": "Cid's Valor",
-            "church_requirement_title": "Church of Plenty",
-            "crafting_requirement_title": "Crafter's Approval",
+            "title": "Tìm kiếm thị trấn",
+            "dialog_title": "Tìm kiếm thị trấn",
+            "text": "Đáp ứng bất kỳ yêu cầu nào sau đây để đủ điều kiện cho trạng thái thị trấn:",
+            "military_requirement_title": "Dũng cảm của Cid",
+            "church_requirement_title": "Nhà thờ Plenty",
+            "crafting_requirement_title": "Sự chấp thuận của Crafter",
             "summon_text": "Triệu hồi Sứ giả!"
           },
           "herald_dialog": {
@@ -2677,107 +2677,107 @@
               "dialog_nodes": {
                 "proclamation": {
                   "bulletin_message": {
-                    "000": "By order of Princess Dania, First Lady of the Ascendancy, and in whose dimenses you settle, and with the blessings of the Church of Plenty, in whose wisdom we all prosper..."
+                    "000": "Theo lệnh của Công chúa Dania, Đệ nhất phu nhân của quyền lực, và ai giải quyết nơi định cư, và với sự chúc phúc của Nhà thờ Plenty, sự khôn ngoan của tất cả chúng ta đều thịnh vượng..."
                   },
-                  "bulletin_title": "Anwyn Clears her Throat",
-                  "dialog_title": "The Honorable Anwyn Torresi",
-                  "choice_000": "Wow, a proclamation!",
+                  "bulletin_title": "Anwyn hắng giọng",
+                  "dialog_title": "Anwyn Torresi đáng kính",
+                  "choice_000": "Wow, một tuyên ngôn!",
                   "choice_001": "Zzz..."
                 },
                 "craft_reqs": {
                   "bulletin_message": {
-                    "000": "The Royal Craftmasters honor those with an eye for excellence. Have your mason create a statue to their exacting specifications, and you shall be one of the few to impress them."
+                    "000": "Royal Craftmasters vinh danh những người có con mắt xuất sắc. Yêu cầu thợ xây của bạn tạo một bức tượng theo thông số kỹ thuật chính xác của họ, và bạn sẽ là một trong số ít người gây ấn tượng với họ."
                   },
-                  "bulletin_title": "Anwyn looks back at the scroll",
-                  "dialog_title": "The Honorable Anwyn Torresi",
-                  "choice_000": "Masons ho!",
-                  "choice_001": "How else can I gain renown?"
+                  "bulletin_title": "Anwyn nhìn lại cuộn giấy",
+                  "dialog_title": "Anwyn Torresi đáng kính",
+                  "choice_000": "Thợ xây ngạc nhiên!",
+                  "choice_001": "Làm cách nào mà tôi có thể đạt được danh tiếng?"
                 },
                 "proc_details": {
                   "bulletin_message": {
-                    "000": "All settlements that attain local renown will be hereby recognized as official Ascendancy Townships, with the rights, privileges, and rewards thereof."
+                    "000": "Tất cả các khu định cư đạt được danh tiếng của địa phương theo đây sẽ được công nhận là Thị trấn quyền lực chính thức, với các quyền, đặc quyền và phần thưởng của chúng."
                   },
-                  "bulletin_title": "Anwyn Reads",
-                  "dialog_title": "The Honorable Anwyn Torresi",
+                  "bulletin_title": "Anwyn đọc",
+                  "dialog_title": "Anwyn Torresi đáng kính",
                   "choice_000": "Huh?",
-                  "choice_001": "Rewards?"
+                  "choice_001": "Phần thưởng?"
                 },
                 "actual_meaning": {
                   "bulletin_message": {
-                    "000": "What does that actually mean? Well, mostly that we write you down in a ledger somewhere, in case we ever remember to come back and collect taxes."
+                    "000": "Điều đó thực sự có ý nghĩa gì? Chà, chủ yếu là chúng tôi ghi bạn vào sổ cái ở đâu đó, phòng khi chúng tôi nhớ quay lại và thu thuế."
                   },
-                  "bulletin_title": "Anwyn Grins",
-                  "dialog_title": "The Honorable Anwyn Torresi",
-                  "choice_000": "Never mind then!",
-                  "choice_001": "Taxes? Seriously?"
+                  "bulletin_title": "Anwyn cười toe toét",
+                  "dialog_title": "Anwyn Torresi đáng kính",
+                  "choice_000": "Đừng bận tâm!",
+                  "choice_001": "Thuế? Nghiêm túc?"
                 },
                 "rewards": {
                   "bulletin_message": {
-                    "000": "Indeed! By the Princess's order, eligible towns that have proven their worth shall win access to architectural learning and wealthier caravans for trade."
+                    "000": "Thật! Theo lệnh của Công chúa, các thị trấn đủ điều kiện đã chứng minh được giá trị của mình sẽ được tiếp cận với việc học kiến trúc và các đoàn lữ hành giàu có hơn để buôn bán."
                   },
-                  "bulletin_title": "Anwyn Nods",
-                  "dialog_title": "The Honorable Anwyn Torresi",
-                  "choice_000": "Ok. What comes next?"
+                  "bulletin_title": "Anwyn gật đầu",
+                  "dialog_title": "Anwyn Torresi đáng kính",
+                  "choice_000": "OK. Tiếp theo là gì?"
                 },
                 "military_reqs": {
                   "bulletin_message": {
-                    "000": "To gain renown with the Order of Cid, you must display courage and valor! I shall give your mason a recipe; quest for the ingredients to craft a monument worthy of your swordarm."
+                    "000": "Để được biết đến với đơn hàng của Cid, bạn phải thể hiện sự dũng cảm và dũng cảm! Tôi sẽ cấp cho thợ xây của bạn một công thức; tìm kiếm nguyên liệu để tạo ra một tượng đài xứng đáng với thanh kiếm của bạn."
                   },
-                  "bulletin_title": "Anwyn looks back at the scroll",
-                  "dialog_title": "The Honorable Anwyn Torresi",
-                  "choice_000": "Sounds good!",
-                  "choice_001": "How else can I gain renown?"
+                  "bulletin_title": "Anwyn nhìn lại cuộn giấy",
+                  "dialog_title": "Anwyn Torresi đáng kính",
+                  "choice_000": "Nghe hay đấy!",
+                  "choice_001": "Làm cách nào mà tôi có thể đạt được danh tiếng?"
                 },
                 "herald_announcement": {
                   "bulletin_message": {
-                    "000": "Excellent! Messire Burlyhands said you'd be out here, but it's always a bit touch and go in the early days. Shall we get started?"
+                    "000": "Xuất sắc! Messire Burlyhands nói rằng bạn sẽ ra ngoài ở đây, nhưng luôn có một chút liên lạc và hãy đi trong những ngày đầu. Chúng ta sẽ bắt đầu chứ?"
                   },
-                  "bulletin_title": "Anwyn unrolls a scroll",
-                  "dialog_title": "The Honorable Anwyn Torresi",
-                  "choice_000": "Started with what?"
+                  "bulletin_title": "Anwyn mở cuộn",
+                  "dialog_title": "Anwyn Torresi đáng kính",
+                  "choice_000": "Bắt đầu với cái gì?"
                 },
                 "requirements": {
                   "bulletin_message": {
-                    "000": "You may gain sufficient renown to advance to a township in any of three ways: Military Glory, Favor with the Church, or The Approval of the Craftsmasters. Which sounds most interesting to you?"
+                    "000": "Bạn có thể đủ danh tiếng để tiến tới một thị trấn bằng bất kỳ cách nào trong ba cách: Vinh quang quân sự, Ủng hộ Giáo hội, hoặc Sự chấp thuận của thợ thủ công. Điều nào nghe thú vị nhất đối với bạn?"
                   },
-                  "bulletin_title": "Anwyn looks back at the scroll",
-                  "dialog_title": "The Honorable Anwyn Torresi",
-                  "choice_000": "Military!",
-                  "choice_001": "Church!",
-                  "choice_002": "Craftmasters!"
+                  "bulletin_title": "Anwyn nhìn lại cuộn giấy",
+                  "dialog_title": "Anwyn Torresi đáng kính",
+                  "choice_000": "Quân đội!",
+                  "choice_001": "Nhà thờ!",
+                  "choice_002": "Thợ thủ công!"
                 },
                 "joking": {
                   "bulletin_message": {
-                    "000": "I'm just joking! The Royal Accountants have their hands full right now with the coronation and everything. Anyway, Township status really means that you get a host of rewards and benefits."
+                    "000": "Tôi chỉ nói đùa! Kế toán Hoàng gia hiện có đầy đủ mọi thứ với lễ đăng quang và mọi thứ. Anyway, Tình trạng thị trấn thực sự có nghĩa là bạn nhận được nhiều phần thưởng và lợi ích."
                   },
-                  "bulletin_title": "Anwyn Grins",
-                  "dialog_title": "The Honorable Anwyn Torresi",
-                  "choice_000": "Rewards and benefits?"
+                  "bulletin_title": "Anwyn cười toe toét",
+                  "dialog_title": "Anwyn Torresi đáng kính",
+                  "choice_000": "Phần thưởng và lợi ích?"
                 },
                 "church_reqs": {
                   "bulletin_message": {
-                    "000": "The Church of Plenty favors those who share their wealth with those in need. I shall give recipes to your mason and your cook; build a Fountain of Plenty and I shall be back to celebrate your achievements."
+                    "000": "Nhà thờ Plenty ủng hộ những người chia sẻ sự giàu có của họ với những người có nhu cầu. Tôi sẽ đưa công thức nấu ăn cho thợ xây của bạn và đầu bếp của bạn; xây đài phun nước Plenty và tôi sẽ quay lại để ăn mừng thành tích của bạn."
                   },
-                  "bulletin_title": "Anwyn looks back at the scroll",
-                  "dialog_title": "The Honorable Anwyn Torresi",
-                  "choice_000": "We can do that!",
-                  "choice_001": "How else can I gain renown?"
+                  "bulletin_title": "Anwyn nhìn lại cuộn giấy",
+                  "dialog_title": "Anwyn Torresi đáng kính",
+                  "choice_000": "Chúng ta có thể làm điều đó!",
+                  "choice_001": "Làm cách nào mà tôi có thể đạt được danh tiếng?"
                 },
                 "herald_approaches": {
                   "bulletin_message": {
                     "000": "Ho there! Is this the new settlement of [str(i18n_data.town_name)]?  Messire Burlyhands said you'd be out here, but it's always a bit touch and go in the early days. Shall we get started with the Proclamation?"
                   },
                   "bulletin_title": "A Royal Herald Approaches",
-                  "dialog_title": "The Honorable Anwyn Torresi",
+                  "dialog_title": "Anwyn Torresi đáng kính",
                   "choice_000": "Welcome, Milady!",
                   "choice_001": "That's us!"
                 },
                 "conclusion": {
                   "bulletin_message": {
-                    "000": "Excellent! In addition to an appropriate monument, Thị trấn chúng ta will also need to have accumulated a certain level of worth. I shall leave the requirements with you, should you wish to consult with them again, or should a different path come to appeal more than your initial chosen road."
+                    "000": "Xuất sắc! In addition to an appropriate monument, Thị trấn chúng ta will also need to have accumulated a certain level of worth. I shall leave the requirements with you, should you wish to consult with them again, or should a different path come to appeal more than your initial chosen road."
                   },
                   "bulletin_title": "Anwyn rolls up the scroll",
-                  "dialog_title": "The Honorable Anwyn Torresi",
+                  "dialog_title": "Anwyn Torresi đáng kính",
                   "choice_000": "Thank you, Milady!"
                 },
                 "conclusion2": {
@@ -2785,7 +2785,7 @@
                     "000": "Cid's bounty be upon you, [str(i18n_data.town_name)]. I shall leave you a bird, so you may summon me to evaluate your progress!"
                   },
                   "bulletin_title": "Anwyn rolls up the scroll",
-                  "dialog_title": "The Honorable Anwyn Torresi",
+                  "dialog_title": "Anwyn Torresi đáng kính",
                   "choice_000": "Farewell!"
                 }
               }
@@ -4327,7 +4327,7 @@
                         },
                         "greet": {
                           "bulletin_message": {
-                            "00": "Valiant humans, who have proven your strength, I greet you now as equals. This domain is yours by right, and your star glints all the brighter. Yours is a promising fortune indeed!"
+                            "00": "Valiant humans, who have proven your strength, I greet you now as equals. This domain is yours by right, and your star glints all the brighter. Yours is a promising fortune Thật!"
                           },
                           "bulletin_title": "Erdene of the Red Kiln returns, anxious",
                           "dialog_title": "Erdene, Speaker of the Red Kiln",
@@ -4406,7 +4406,7 @@
                         },
                         "greet": {
                           "bulletin_message": {
-                            "00": "Valiant humans, who have proven your strength, I greet you now as equals. This domain is yours by right, and your star glints all the brighter. Yours is a promising fortune indeed!"
+                            "00": "Valiant humans, who have proven your strength, I greet you now as equals. This domain is yours by right, and your star glints all the brighter. Yours is a promising fortune Thật!"
                           },
                           "bulletin_title": "Erdene of the Red Kiln returns, anxious",
                           "dialog_title": "Erdene, Speaker of the Red Kiln",
@@ -4467,7 +4467,7 @@
                       "dialog_nodes": {
                         "accept2": {
                           "bulletin_message": {
-                            "00": "Excellent! We Orcs aren't quite as talented in the crafts as you are, but my disciple has proven themselves a fierce warrior, and I'm sure they will make themselves useful however else they can!<br><br>Farewell, brave Humans, until a future day has dawned!"
+                            "00": "Xuất sắc! We Orcs aren't quite as talented in the crafts as you are, but my disciple has proven themselves a fierce warrior, and I'm sure they will make themselves useful however else they can!<br><br>Farewell, brave Humans, until a future day has dawned!"
                           },
                           "bulletin_title": "Erdene continues",
                           "dialog_title": "Erdene, Speaker of the Red Kiln",
@@ -4747,7 +4747,7 @@
                       "dialog_nodes": {
                         "clergy": {
                           "bulletin_message": {
-                            "00": "Kind greetings! My name is Ember Minton, and I am a missionary for the Church of Plenty. We would be delighted to have a settlement such as yours count among one of Thị trấn chúng tôiships."
+                            "00": "Kind greetings! My name is Ember Minton, and I am a missionary for Nhà thờ Plenty. We would be delighted to have a settlement such as yours count among one of Thị trấn chúng tôiships."
                           },
                           "bulletin_title": "The Clergy",
                           "dialog_title": "The Clergy",
@@ -4767,11 +4767,11 @@
                           },
                           "bulletin_title": "Mer Concludes",
                           "dialog_title": "Mer Concludes",
-                          "choice_000": "Sounds good!"
+                          "choice_000": "Nghe hay đấy!"
                         },
                         "military_cont": {
                           "bulletin_message": {
-                            "00": "A Township dedicated to Cid's valorous example can serve as an anchor for a whole region, and embolden new settlers to forge their own new Outposts.<br><br>If you would choose to build a memorial to Cid, the Guard would be happy to share some of our knowledge of arms with you as part of the dedication ceremony.<br><br><font size=-1><i>Dedicating the Valor of Cid will grant you recipes for new, highest-tier weapons.</i></font>"
+                            "00": "A Township dedicated to Dũng cảm của Cidous example can serve as an anchor for a whole region, and embolden new settlers to forge their own new Outposts.<br><br>If you would choose to build a memorial to Cid, the Guard would be happy to share some of our knowledge of arms with you as part of the dedication ceremony.<br><br><font size=-1><i>Dedicating the Valor of Cid will grant you recipes for new, highest-tier weapons.</i></font>"
                           },
                           "bulletin_title": "Captain Anwyn Torresi",
                           "dialog_title": "Captain Anwyn Torresi",
@@ -4878,7 +4878,7 @@
                       "dialog_nodes": {
                         "msg2": {
                           "bulletin_message": {
-                            "00": "As this shrine bestows its blessing on you all, take a moment to reflect on the world, its mysteries, and its many bounties.<br/><br/>May Thị trấn chúng ta always be a happy home for its people, and a wellspring for the generosity of the Church of Plenty."
+                            "00": "As this shrine bestows its blessing on you all, take a moment to reflect on the world, its mysteries, and its many bounties.<br/><br/>May Thị trấn chúng ta always be a happy home for its people, and a wellspring for the generosity of Nhà thờ Plenty."
                           },
                           "bulletin_title": "Ember continues",
                           "dialog_title": "Ember Minton, Missionary",
@@ -5014,7 +5014,7 @@
             },
             "valor": {
               "name": "The Valor of Cid",
-              "description": "<i>This Township shall be dedicated to Cid's valorous example to protect the whole region.</i><ul><li>Unlocks legendary weapon recipes</li><li>Unlocks castle decoration recipes</li></ul>"
+              "description": "<i>This Township shall be dedicated to Dũng cảm của Cidous example to protect the whole region.</i><ul><li>Unlocks legendary weapon recipes</li><li>Unlocks castle decoration recipes</li></ul>"
             }
           },
           "shrine_foreshadow_dialog": {
@@ -5145,8 +5145,8 @@
             "dialog_title": "Township Quest: The Guildmaster's Skill"
           },
           "shrine_quest_valor": {
-            "title": "Township Quest: Cid's Valor",
-            "dialog_title": "Township Quest: Cid's Valor"
+            "title": "Township Quest: Dũng cảm của Cid",
+            "dialog_title": "Township Quest: Dũng cảm của Cid"
           },
           "hearth_quest_cheer": {
             "title": "Hearth Upgrade: Cheer",
@@ -5792,7 +5792,7 @@
                         "dialog_nodes": {
                           "simple_message": {
                             "bulletin_message": {
-                              "00": "\"Your wayfaring student of Geomancy has returned as a full-fledged Geomancer! They proved themselves an able practitioner of the magic arts indeed!\"<br><br>\"Here - these precious Hearthbloom flowers coalesce traces of Hearth's magic into Bản chất lò sưởi, which Geomancers can use in their craft - be sure to plant them.\""
+                              "00": "\"Your wayfaring student of Geomancy has returned as a full-fledged Geomancer! They proved themselves an able practitioner of the magic arts Thật!\"<br><br>\"Here - these precious Hearthbloom flowers coalesce traces of Hearth's magic into Bản chất lò sưởi, which Geomancers can use in their craft - be sure to plant them.\""
                             },
                             "choice_000": "Welcome back, and thank you all!"
                           }
@@ -6061,7 +6061,7 @@
                           },
                           "msg2_a": {
                             "bulletin_message": {
-                              "00": "\"Excellent! Please let me know as soon as the doors are ready!\""
+                              "00": "\"Xuất sắc! Please let me know as soon as the doors are ready!\""
                             },
                             "bulletin_title": "Shook Down",
                             "choice_000": "OK"
@@ -6224,7 +6224,7 @@
                               "00": "\"Charging them is simple - just place them anywhere in sunlight or moonlight, and they will gather energy on their own.\"<br><br>\"The... only issue is that creatures tend to be attracted to the Amberstones at night. So, either prepare to defend against them, or be sure to take the crystals down before nightfall.\""
                             },
                             "bulletin_title": "Crystal Charging",
-                            "choice_000": "We can do that!",
+                            "choice_000": "Chúng ta có thể làm điều đó!",
                             "choice_001": "No, not this time"
                           },
                           "msg3": {
@@ -15778,7 +15778,7 @@
           },
           "herald_ember": {
             "display_name": "Ember Minton",
-            "description": "Missionary of the Church of Plenty."
+            "description": "Missionary of Nhà thờ Plenty."
           },
           "herald_anwyn": {
             "display_name": "Anwyn Torresi",
@@ -17142,7 +17142,7 @@
           "flavor": "The traditional meal, excellent with berry sauce!"
         },
         "donation_box_recipe": {
-          "recipe_name": "Donation to the Church of Plenty",
+          "recipe_name": "Donation to Nhà thờ Plenty",
           "description": "Care-package for those in greater need than you",
           "flavor": "To the hungry, bread, to the driven, faith. --Cid the Wanderer"
         },
@@ -17939,7 +17939,7 @@
         "roadside_shrine_recipe": {
           "recipe_name": "Fountain of Plenty",
           "description": "Place to show generosity and faith",
-          "flavor": "Cid fashioned his breastplate into a basket and brought the wealth of the rich to the bedsides of the poor --Edison Arn, Church of Plenty"
+          "flavor": "Cid fashioned his breastplate into a basket and brought the wealth of the rich to the bedsides of the poor --Edison Arn, Nhà thờ Plenty"
         },
         "craftsman_statue_recipe": {
           "recipe_name": "The Guildmaster's Skill",
